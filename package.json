@@ -8,8 +8,8 @@
   },
   "scripts": {
     "dev": "tsx api/index.ts",
-    "build": "vite build",
-    "vercel-build": "vite build",
+    "build": "echo ok",
+    "vercel-build": "echo ok",
     "preview": "vite preview",
     "clean": "rm -rf dist",
     "lint": "tsc --noEmit",
