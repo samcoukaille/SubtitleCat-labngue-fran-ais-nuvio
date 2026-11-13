@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "tsx api/index.ts",
     "build": "echo ok",
-    "vercel-build": "echo ok",
+    "vercel-build": "mkdir -p dist",
     "preview": "vite preview",
     "clean": "rm -rf dist",
     "lint": "tsc --noEmit",
