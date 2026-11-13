@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/proxy/(.*)", "destination": "/api/index.ts" },
+    { "source": "/manifest.json", "destination": "/api/index.ts" },
+    { "source": "/subtitles/(.*)", "destination": "/api/index.ts" },
+    { "source": "/(.*)", "destination": "/api/index.ts" }
+  ]
+}

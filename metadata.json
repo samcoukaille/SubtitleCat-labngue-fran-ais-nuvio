@@ -1,0 +1,5 @@
+{
+  "name": "SubtitleCat Stremio Addon",
+  "description": "A Stremio addon to fetch subtitles from subtitlecat.com",
+  "requestFramePermissions": []
+}
